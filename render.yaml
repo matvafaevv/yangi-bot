@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: yangi-bot
+    env: python
+    branch: main
+    buildCommand: ""
+    startCommand: python bot.py
